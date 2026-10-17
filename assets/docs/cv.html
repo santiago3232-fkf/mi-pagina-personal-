@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Curriculum Vitae - Santiago Gutiérrez</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+      color: #1e293b;
+      background: #ffffff;
+      padding: 36px 48px;
+      line-height: 1.5;
+      font-size: 13.5px;
+    }
+    
+    .header {
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 18px;
+      margin-bottom: 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    
+    .name-title h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+    }
+    
+    .name-title .role {
+      font-size: 14px;
+      font-weight: 600;
+      color: #2563eb;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 4px;
+    }
+    
+    .contact-info {
+      text-align: right;
+      font-size: 12px;
+      color: #475569;
+    }
+    
+    .contact-info a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    
+    .section {
+      margin-bottom: 20px;
+    }
+    
+    .section-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1e3a8a;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .summary-text {
+      color: #334155;
+      line-height: 1.6;
+    }
+    
+    .item {
+      margin-bottom: 12px;
+    }
+    
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3px;
+    }
+    
+    .item-title {
+      font-weight: 700;
+      color: #0f172a;
+      font-size: 13.5px;
+    }
+    
+    .item-institution {
+      font-weight: 600;
+      color: #2563eb;
+    }
+    
+    .item-date {
+      font-size: 11.5px;
+      color: #64748b;
+      font-weight: 500;
+    }
+    
+    ul.item-bullets {
+      padding-left: 18px;
+      color: #475569;
+      margin-top: 4px;
+    }
+    
+    ul.item-bullets li {
+      margin-bottom: 3px;
+    }
+    
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    
+    .skill-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 8px 12px;
+    }
+    
+    .skill-name {
+      font-weight: 600;
+      color: #0f172a;
+      font-size: 12.5px;
+    }
+    
+    .skill-desc {
+      font-size: 11.5px;
+      color: #64748b;
+    }
+    
+    .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-right: 4px;
+    }
+    
+    @media print {
+      body {
+        padding: 20px 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="name-title">
+      <h1>Santiago Gutiérrez</h1>
+      <div class="role">Aspirante a Ingeniero de Sistemas · Desarrollador de Software</div>
+    </div>
+    <div class="contact-info">
+      <div>WhatsApp / Tel: +57 322 404 5855</div>
+      <div>Correo: <a href="mailto:san.18gutierrez@gmail.com">san.18gutierrez@gmail.com</a></div>
+      <div>GitHub: <a href="https://github.com/santiago3232-fkf" target="_blank">github.com/santiago3232-fkf</a></div>
+      <div>Colombia</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Perfil Profesional</div>
+    <p class="summary-text">
+      Estudiante de Ingeniería de Sistemas con sólida formación técnica en desarrollo de software por el SENA. 
+      Apasionado por la tecnología, la programación y la innovación digital. Caracterizado por la responsabilidad, 
+      la disciplina y una orientación constante al aprendizaje continuo y la resolución de problemas reales mediante software de impacto.
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Formación Académica y Certificaciones</div>
+    
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Técnico en Desarrollo de Software <span class="tag">En curso</span></span>
+        <span class="item-date">2024 - Actualidad</span>
+      </div>
+      <div class="item-institution">Servicio Nacional de Aprendizaje (SENA)</div>
+      <ul class="item-bullets">
+        <li>Desarrollo de aplicaciones web responsivas y lógicas de frontend con JavaScript, HTML5 y CSS3.</li>
+        <li>Fundamentos de programación estructurada y orientada a objetos en Python.</li>
+        <li>Diseño de interfaces intuitivas y trabajo colaborativo con control de versiones en Git y GitHub.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Certificado de Emprendimiento e Innovación</span>
+        <span class="item-date">2023</span>
+      </div>
+      <div class="item-institution">Servicio Nacional de Aprendizaje (SENA)</div>
+      <p class="summary-text" style="font-size: 12px; color: #475569; margin-top: 2px;">
+        Reconocimiento por participación y desarrollo de modelos de negocio digitales y soluciones innovadoras orientadas a resolver necesidades de mercado.
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Proyectos Destacados</div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">PayNex — Plataforma de Comercio Digital</span>
+        <span class="item-date"><a href="https://santiago3232-fkf.github.io/prueba2/" target="_blank">Ver Proyecto Online</a></span>
+      </div>
+      <p class="summary-text" style="font-size: 12.5px; color: #475569;">
+        Plataforma web comercial diseñada para que jóvenes y nuevos emprendedores puedan exponer, comprar y vender productos de forma intuitiva y protegida. Incorpora catálogo interactivo, carrito de compras, pasarela y gestión de pedidos.
+      </p>
+      <div style="margin-top: 5px;">
+        <span class="tag">JavaScript</span>
+        <span class="tag">HTML5 / CSS3</span>
+        <span class="tag">E-Commerce</span>
+        <span class="tag">Responsive UI</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span class="item-title">Sistema de Gestión de Comedor Escolar</span>
+        <span class="item-date"><span class="tag">En desarrollo</span></span>
+      </div>
+      <p class="summary-text" style="font-size: 12.5px; color: #475569;">
+        Plataforma web para optimizar el registro diario, asistencia y distribución del comedor escolar, reduciendo mermas de alimentos y garantizando trazabilidad y control eficiente de inventarios.
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Competencias y Habilidades Técnicas</div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-name">Lenguajes y Desarrollo Web</div>
+        <div class="skill-desc">JavaScript (ES6+), Python, HTML5 semántico, CSS3, Flexbox/Grid</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">Herramientas y Entornos</div>
+        <div class="skill-desc">Git, GitHub, Visual Studio Code, Terminal / CLI</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">Mantenimiento de Equipos</div>
+        <div class="skill-desc">Diagnóstico de hardware/software, mantenimiento preventivo de máquinas digitales</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">Habilidades Blandas</div>
+        <div class="skill-desc">Resolución lógica de problemas, trabajo en equipo, pensamiento crítico, disciplina</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
